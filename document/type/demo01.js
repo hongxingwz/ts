@@ -1,0 +1,15 @@
+var isDone = false;
+var decLiteral = 6;
+var hexLiteral = 0xf00d;
+var binaryLiteral = 10;
+var octalLiteral = 484;
+var name2 = "bob";
+name2 = 'smith';
+var name3 = "Gene";
+var age = 37;
+var sentence = "Hello, my name is " + name3 + ".\n    \n    I'll be " + (age + 1) + " years old next month.\n";
+console.log(sentence);
+var list = [1, 2, 3];
+var list2 = [1, 2, 3];
+console.log(list);
+console.log(list2);

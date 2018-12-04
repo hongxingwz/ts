@@ -24,4 +24,11 @@ let list2: Array<number> =  [1, 2, 3];
 console.log(list)
 console.log(list2)
 
+// 元组 Tuple
+let x: [string, number]
 
+x = ['hello', 10]
+console.log(x)
+
+x = [10, 'hello']
+console.log(x)
